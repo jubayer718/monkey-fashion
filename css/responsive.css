@@ -1,0 +1,37 @@
+@media screen and (max-width: 576px) {
+  .nav-menu i{
+    display: block;
+  }
+  .nav-menu li{
+    display: none;
+  }
+  .banner-container{
+    flex-direction:  column-reverse;
+  }
+  .nav-title img{
+    width: 250px;
+  }
+
+  .banner-img{
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .banner-content{
+    width: 100%;
+    
+   
+  }
+  .banner-content h2{
+    font-size: 4rem;
+  }
+   .row-1{
+    grid-template-columns: 1fr;
+   }
+   .shop-container{
+    flex-direction: column;
+   }
+   .shop-content, .shop-img{
+    width: 100%;
+   }
+}
